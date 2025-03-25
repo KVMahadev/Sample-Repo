@@ -1,4 +1,4 @@
-package Programs;
+package programs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,7 +13,9 @@ public class arrayRemoveallRetainall {
 		
 		ArrayList<String> AL1 = new ArrayList<String>(Arrays.asList("A", "D", "B", "D", "E"));
 		ArrayList<String> AL2 = new ArrayList<String>(Arrays.asList("A","B", "C", "F", "G"));
+		 System.out.println(AL1.get(1));
 	    AL1.removeAll(AL2);
+	   
 		System.out.println(AL1);
 		
 		System.out.println("Retain all the common elements available in AL3 and AL4");

@@ -1,4 +1,4 @@
-package Programs;
+package programs;
 
 public class secondLargest {
 
@@ -16,17 +16,18 @@ public class secondLargest {
 			if (a[i] > max1) {		
 				max2 = max1;
 				max1 = a[i];				
-			} else if (a[i] > max2) {
+			} 
+			else if (a[i] > max2) {
 				max2 = a[i];
 			}
 		}
-		return max2;
+		return max1;
 
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = { 12, 8, 20, 40, 56 };
+		int a[] = { 41, 42, 20, 40, 56 };
 		System.out.println(secondlargest(a));
 	}
 

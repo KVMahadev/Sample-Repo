@@ -1,6 +1,6 @@
-package Programs;
+package programs;
 
-public class search {
+public class Linearsearch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -32,13 +32,12 @@ public class search {
 			int mid = (left + right) / 2;
 			if (num[mid] == target) {
 				return mid;
-			}
-
-			else if (num[mid] < target) {
+			} else if (num[mid] < target) {
 				left = mid + 1;
 			} else
 				right = mid - 1;
 		}
 		return -1;
 	}
+	
 }

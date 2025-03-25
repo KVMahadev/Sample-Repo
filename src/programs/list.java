@@ -1,6 +1,7 @@
-package Programs;
+package programs;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class list {
 
@@ -20,6 +21,14 @@ public class list {
 		
 		list1.addAll(list2);
 		System.out.println(list1);
+		
+		Object arr1[]=list1.toArray();
+		System.out.println(arr1);
+		System.out.println(Arrays.toString(arr1));
+		
+		for (int i=0; i<arr1.length;i++) {
+				System.out.println(arr1[i]);
+		}
 		
 	
 

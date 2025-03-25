@@ -1,4 +1,4 @@
-package Programs;
+package programs;
 public class Quicksort {	
 	public static void Quicksort (int [] arr, int low, int high) 
 	{

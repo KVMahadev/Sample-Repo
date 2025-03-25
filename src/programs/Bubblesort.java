@@ -1,4 +1,4 @@
-package Programs;
+package programs;
 
 public class Bubblesort {
 	// TODO Auto-generated method stub

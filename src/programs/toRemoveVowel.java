@@ -1,11 +1,11 @@
-package Programs;
+package programs;
 
 public class toRemoveVowel {
 	
 	public static void toremove(String str)
 	{
 		String str1 = " ";
-		for (int i=0; i<str.length();i++) {
+		for (int i=1; i<str.length();i++) {
 			char c = str.charAt(i);
 			if (!(c=='a' || c=='e'||c=='i'||c=='o'||c=='u'||c=='A' || c=='E'||c=='I'||c=='O'||c=='U')) {
 				str1=str1+c;

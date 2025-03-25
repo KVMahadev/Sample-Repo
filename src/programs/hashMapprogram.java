@@ -1,5 +1,6 @@
-package Programs;
+package programs;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -40,9 +41,21 @@ public class hashMapprogram {
 		Iterator <Entry<String, String>> IT2=HM.entrySet().iterator();
 		while (IT2.hasNext()){
 			 Entry<String,String> ET1 = IT2.next();
-			 System.out.println("Key = " + ET1.getKey() + "Value = " + ET1.getValue());
-			 
+			 System.out.println("Key = " + ET1.getKey() + " " +"Value = " + ET1.getValue());			 
 		}
+		
+		System.out.println("******To convert to  ArrayList using Key*********");
+		ArrayList<String> AR1 = new ArrayList<String>(HM.keySet());
+		for (String List : AR1) {
+			System.out.println(List);			
+		}
+		
+		System.out.println("******To convert to  ArrayList using Values*********");
+		ArrayList<String> AR2 = new ArrayList<String>(HM.values());
+		for (String List1 : AR2) {
+			System.out.println(List1);			
+		}
+		
 		
 }
 }
